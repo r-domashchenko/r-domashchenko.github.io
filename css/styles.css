@@ -320,7 +320,7 @@ h2 {
 
 .item__descr {
     font-weight: 500;
-    font-size: 2vh;
+    font-size: 3vh;
     line-height: 130%;
     color: #1D1C1B;
 }
@@ -453,9 +453,18 @@ footer {
     header {
         display: none;
     }
-
+    #promo {
+        height: 100%;
+        padding-bottom: 40px;
+        min-height: 790px;
+    }
     #promo h1 {
         margin-top: 3vh;
+    }
+
+    #promo .promo__descr {
+        font-size: 1.2rem;
+        margin-top: 75%;
     }
 
     #promo .promo__main-img {
@@ -463,11 +472,12 @@ footer {
     }
 
     h2 {
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
 
     #promo form fieldset {
-        margin-top: 3vh;
+        margin: 0;
+        margin-top: 40px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -476,6 +486,7 @@ footer {
     #promo form fieldset #email {
         margin: 0;
         width: 85%;
+        font-size: 1.3rem;
     }
 
     #promo form fieldset #submit {
@@ -485,6 +496,12 @@ footer {
     }
 
     #benefits .benefits__wheat-img {
-        top: -10%;
+        top: -15%;
+    }
+    .item {
+        padding-top: 30px;
+    }
+    .item__descr {
+        font-size: 1.3rem;
     }
 }
