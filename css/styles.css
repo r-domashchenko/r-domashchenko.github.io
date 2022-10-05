@@ -473,6 +473,7 @@ footer {
     #promo .promo__main-img {
         top: 25%;
         width: 80%;
+        height: max-content;
     }
 
     h2 {
